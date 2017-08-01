@@ -68,10 +68,10 @@ import { HeroService } from './hero.service';
     <hero-detail [hero]="selectedHero"></hero-detail>
     `
 })
-export class HeroesComponent implements OnInit{
+export class HeroesComponent implements OnInit {
   constructor(private heroService: HeroService) { }
 
-  ngOnInit():void {
+  ngOnInit(): void {
     this.getHeroes();
   }
 
