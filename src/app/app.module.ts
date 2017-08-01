@@ -7,7 +7,7 @@ import { AppComponent }  from './app.component';
 import { HeroesComponent } from './heroes.component';
 import { DashboardComponent } from './dashboard.component';
 import { HeroDetailComponent } from './hero-detail.component';
-import {HeroService} from './hero.service';
+import { HeroService } from './hero.service';
 
 @NgModule({
   imports: [
@@ -35,7 +35,7 @@ import {HeroService} from './hero.service';
     DashboardComponent,
     HeroDetailComponent
   ],
-  providers: [HeroService],
+  providers: [ HeroService ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
